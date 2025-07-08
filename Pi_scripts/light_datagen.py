@@ -3,6 +3,7 @@ import time
 import socket
 import pickle
 import struct
+from tqdm.auto import tqdm
 
 class BH1750:
     DEVICE = 0x23  # Default I2C address
@@ -32,7 +33,7 @@ def generate_raw_data():
     pi_socket.bind(("0.0.0.0", 12345))  # Listen on all interfaces
     pi_socket.listen(1)
     print("Server listening...")
-    delay = 0.05
+    delay = 0.02
     while True:
         
         client, addr = pi_socket.accept()
@@ -46,7 +47,7 @@ def generate_raw_data():
             n = struct.unpack('!I', data)[0]  # Receive 4 bytes as unsigned int (network byte order)
             print(f"Generating {n} Light Data....")
             readings = []
-            for i in range(n):
+            for i in tqdm(range(n)):
                 readings.append(sensor.read_light())
                 time.sleep(delay)
             serialized = pickle.dumps(readings)
