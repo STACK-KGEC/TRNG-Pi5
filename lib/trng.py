@@ -31,13 +31,19 @@ class LightRandom:
 
         client_socket.close()
 
-        normed = (readings - readings.min()) / (readings.max() - readings.min() + 1e-9)
-
-        chaotic = np.sin(2 * np.pi * normed * 13.37)
-
-        randomized = (chaotic - chaotic.min()) / (chaotic.max() - chaotic.min() + 1e-9)
+        randomized = self._whiten(readings)
 
         return randomized
+    
+    def _whiten(self, readings):
+        return np.array([self._temper(x) for x in readings])
+    
+    def _temper(self, x: int) -> int:
+        x ^= (x >> 11)
+        x ^= (x << 7) & 0x9D2C5680
+        x ^= (x << 15) & 0xEFC60000
+        x ^= (x >> 18)
+        return x & 0xFFFFFFFF
 
     def rand(self, *shape):
         count = np.prod(shape) if shape else 1
