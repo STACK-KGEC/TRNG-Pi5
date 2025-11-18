@@ -4,7 +4,7 @@ import pickle
 import struct
 from scipy.stats import norm
 
-HOST = "10.42.0.205"  # Your Pi's IP
+HOST = "10.38.38.79"  # Your Pi's IP
 PORT = 12345
 
 class LightRandom:

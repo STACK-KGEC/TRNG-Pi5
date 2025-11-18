@@ -1,0 +1,16 @@
+Test,File,P-value
+ApproximateEntropy,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/ApproximateEntropy/stats.txt,0.125901
+BlockFrequency,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/BlockFrequency/stats.txt,0.612417
+CumulativeSums,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/CumulativeSums/stats.txt,
+FFT,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/FFT/stats.txt,
+Frequency,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/Frequency/stats.txt,
+LinearComplexity,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/LinearComplexity/stats.txt,
+LongestRun,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/LongestRun/stats.txt,
+NonOverlappingTemplate,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/NonOverlappingTemplate/stats.txt,
+OverlappingTemplate,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/OverlappingTemplate/stats.txt,
+RandomExcursions,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/RandomExcursions/stats.txt,
+RandomExcursionsVariant,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/RandomExcursionsVariant/stats.txt,
+Rank,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/Rank/stats.txt,
+Runs,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/Runs/stats.txt,
+Serial,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/Serial/stats.txt,
+Universal,/home/nirjhar/Python Codes/Fourier/TRNG-Pi5/test_notebooks/sts-2_1_2/sts-2.1.2/sts-2.1.2/experiments/AlgorithmTesting/Universal/stats.txt,
